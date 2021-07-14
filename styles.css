@@ -646,6 +646,8 @@ li {
 
     .profile-img {
         margin: 0 0 7rem 0;
+        align-items: center;
+        width: 100%;
     }
 
     .portfolio-item{
@@ -668,10 +670,6 @@ li {
 
     .timeline .date::before{
         font-size: 1.4rem;
-    }
-
-    form{
-        width: 100%;
     }
 
     .up{
