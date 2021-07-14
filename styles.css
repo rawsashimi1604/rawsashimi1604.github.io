@@ -510,6 +510,10 @@ li {
     color: #A47DE5;
 }
 
+.social-media{
+    display: flex;
+}
+
 
 /* Footer */
 .copyright{
