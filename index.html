@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About </a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio </a>
+                </li>
+                <li>
+                    <a href="#milestones" class="nav-link">Milestones </a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link">Skills </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Gavin Loo</h1>
+            <h6>Bachelor of Engineering in Information and Communications Technology (Software Engineering)</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img blurred" data-aos="fade-right" data-aos-delay="300">
+                <img src="./images/self_3.jpg" width="1000" alt="self_2 img">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p><span class="bold-text">Hi, I'm Gavin, current student of Singapore Institute of Technology and programming and finance are my passions!</span> <br> I discovered programming when I was researching about quantitative finance in November 2020. That was when I was hooked onto building new projects and delving deeper into different programming languages. Often times, I would learn new technologies and implement them into my builds whilst still serving in National Service. I enjoy following Leicester City Football Club and listening to rock music in my free time.</p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://github.com/rawsashimi1604/" class="icon-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.linkedin.com/in/gavin-loo-853047143/" class="icon-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/lavingoo/" class="icon-link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item ">
+                <div class="portfolio-img has-margin-right blurred" data-aos="fade-right" data-aos-delay="300">
+                    <img src="./images/finance.jpg" alt="Algo Trading Picture">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Semi-Automated Trading Bot / Scanner</h6>
+                    <h1>ReversionSys</h1>
+                    <p>Developed a mean reversion trading system based on the Standard & Poor's 500 (S&P500) stocks using a quantitative software (Amibroker). Then assembled a semi automatic trading bot to scan and automate orders using Interactive Broker's TWS API.</p>
+                    <a href="https://github.com/rawsashimi1604/ReversionSys" class="cta" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Soccer Data WebScraper</h6>
+                    <h1>SoccerScrap</h1>
+                    <p>Built a webscraper to retrieve data from Europe's top five football leagues using Python and BeautifulSoup. Able to access data in league and club format using pandas DataFrames.</p>
+                    <a href="https://github.com/rawsashimi1604/SoccerScrap" class="cta" target="_blank">Github</a>
+                </div>
+                <div class="portfolio-img blurred" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="./images/football.jpg" alt="Football Picture">
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right blurred" data-aos="fade-right" data-aos-delay="1200">
+                    <img src="./images/pokemon.jpg" alt="Pokemon Picture">
+                </div>
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1200">
+                    <h6>Pokemon REST API</h6>
+                    <h1>Pokedex-API</h1>
+                    <p>Implemented a REST API using Flask's API module. Able to create, read, update and delete simple Pokemon JSON format data by accessing the API.</p>
+                    <a href="https://github.com/rawsashimi1604/PokeDex-API" class="cta" target="_blank">Github</a>
+                </div>
+            </div>
+
+            <div class="portfolio-others" data-aos="fade-up" data-aos-delay="1200">
+                <h1>Other projects: </h1>
+                <p>
+                    <a href="#">Exploring Linear Regression on Stocks</a> |
+                    <a href="#">Basic C++ Banking Console System</a>
+                    |
+                    <a href="#">Building This Website using HTML, CSS and JS</a>                
+                </p>
+                <div class="divider">
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="milestones" id="milestones">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Milestones</h1>
+                <h6>Education & Experience</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="2012 - 2015">
+                        <h1>Presbyterian High School</h1>
+                        <p>Took my <span class="bold-text">
+                            GCE 'O' Levels, L1R4: 12. Led as Percussion Section Leader
+                        </span> for the  Chinese Orchestra CCA where we were awarded <span class="bold-text">
+                            Distinction  for Singapore Youth Festival 2013 and 2015
+                        </span> respectively.</p>
+                    </li>
+                    <li class="date" data-date="2016 - 2019">
+                        <h1>Singapore Polytechnic</h1>
+                        <p>Pursued a <span class="bold-text">Diploma in Music and Audio Technology, GPA: 3.15</span>. Participated in <span class="bold-text">National Arts Council's 2017 NOISE Mentorship Program</span>  with my band Banana Suicide Forest, <span class="bold-text">Esplanade's All Things New 2019</span> and <span class="bold-text">Singapore Drum Off 2018 (Grand Finalist)</span>.</p>  
+                    </li>
+                    <li class="date" data-date="2019 - 2021">
+                        <h1>National Service</h1>
+                        <p>Enlisted into the Singapore Armed Forces. Proceeded to serve at 24th Singapore Artillery Battalion (24SA) as a Signal Operator.</p>
+                    </li>
+                    <li class="date" data-date="2021 - Present">
+                        <h1>Singapore Institute of Technology (SIT)</h1>
+                        <p>Current student at SIT's <span class="bold-text">Bachelor of Engineering in Information and Communications Technology (Software Engineering)</span> degree program.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills & Interests</h1>
+                <h6>My capabilities and hobbies</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300"> 
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Technical</h1>
+                    <p>Proficient in <span class="bold-text">MS Office(Word, Excel and PowerPoint)</span> . Some programming languages I know are <span class="bold-text"> Python, C, C++, HTML, CSS and JavaScript.</span></p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h1>Languages</h1>
+                    <p><span class="bold-text">Fluent English and conversational Chinese</span>. Picked up Chinese as my Mother Tongue language in Primary and Secondary School.</p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h1>Interests</h1>
+                    <p><span class="bold-text">Music performance, investing and football</span>. Picked up music performance and football before studying my Diploma in polytechnic, and investing in National Service. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Drop me a message!</h6>
+            </div>
+            <div class="social-media">
+                <ul class="nav-list-bottom">
+                    <li>
+                        <i class="far fa-envelope"></i>
+                    </li>
+                    <li>
+                        <p>looweiren@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">    
+            <i class="fas fa-chevron-up">
+            </i>
+        </div>
+        <p>&copy; 2021 Gavin Loo</p>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

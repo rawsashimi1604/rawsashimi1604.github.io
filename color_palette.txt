@@ -1,0 +1,4 @@
+#4A376A - darkpurple
+#A47DE5 - lighterpurple
+#FEF6FF - lightpink
+#FFFADE - lightyellow
